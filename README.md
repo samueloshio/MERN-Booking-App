@@ -1,6 +1,6 @@
 # MERN Booking App - [In progress == %10]
 
-##⭐ Support Us
+## ⭐ Support Us
 If you like our project, do not forget to give stars. So we can get more attention and get more support from the community. Don't underestimate one star, one star you give will convince others to give the project another star.
 
 ## 💪 Motivation
@@ -9,28 +9,39 @@ This is a simple yet robust Onine Booking App created on MERN Stack flow. The pu
 
 ## 🎉 Roadmap
 
-\_**\_ Backend Api Server (Node, Ex)
-\_\_** Base Components (9/9) (Base components of the project )
-\_**\_ Search Filters for Explore Page
-\_\_** Detail Page
-\_**\_ Login
-\_\_** Booking Page
-\_**\_ Users Dashboard Pages
-\_\_** User Collections
-\_**\_ Connect Wallet Popup
-\_\_** Supported Mobile Devices
+Backend Api Server (Node, Ex)
+
+Base Components (9/9) (Base components of the project )
+
+Search Filters for Explore Page
+
+Detail Page
+
+Login
+
+Booking Page
+
+Users Dashboard Pages
+
+User Collections
+
+Connect Wallet Popup
+
+ Supported Mobile Devices
 
 ## 🔮 Usage & Installations
 
 The project is broken into 3 directories
-\_**\_ Api (Backend)
-\_\_** CLient (Frontend)
-\_\_\_\_ Admin (SuperUser Frontend)
+- Api (Backend)
+- CLient (Frontend)
+- Admin (SuperUser Frontend)
 
 #### Step 1
 
 Fork the github page
+
 clone it to your machine
+
 cd into any of the diectories, in the project directory, you can run:
 
 - npm install (for first running)
