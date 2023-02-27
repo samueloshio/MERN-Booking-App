@@ -1,0 +1,5 @@
+# Files and Directories to gitignore
+
+node_modules
+
+.env
