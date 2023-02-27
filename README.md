@@ -9,7 +9,7 @@ I aim to create an open and safe nft marketplace for everyone. This will be a ch
 
 ## 🎉 Roadmap
 
-Backend Api Server (Node, Ex)
+ --- Backend Api Server (Node, Ex)
 Base Components (9/9) (Base components of the project )
 Search Filters for Explore Page
 Detail Page
