@@ -1,11 +1,20 @@
 import React from "react";
+import {
+  Featured,
+  FeaturedProperties,
+  Footer,
+  Hero,
+  MailList,
+  Navbar,
+  PropertyList,
+} from "../components/Index";
+import { hero, navlinks } from "../data/booking";
 
 const Home = () => {
   return (
-    <div>
-      <header>
-        <Navbar />
-      </header>
+    <div className="min-h-screen">
+      <Navbar navlinks={navlinks} />
+      <Hero hero={hero} />
       <div>
         <Featured />
         <h1>Browse by property</h1>
@@ -16,7 +25,7 @@ const Home = () => {
         <MailList />
       </div>
       <footer>
-        <Featured />
+        <Footer />
       </footer>
     </div>
   );

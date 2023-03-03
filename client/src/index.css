@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /* container */
+    .booknow-container {
+        @apply w-[85vw] xl:w-[95vw] m-auto;
+    }
+
+    /* button */
+    .button-sky {
+        @apply bg-gradient-to-b from-sky-500 to-blue-500 shadow-lg shadow-sky-400 rounded-full text-lg sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-90 text-white sm:w-48;
+    }
+
+    .button-light {
+        @apply bg-gradient-to-b from-white to-slate-100 shadow-lg shadow-slate-400 rounded-full text-lg sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-90 text-black sm:w-48;
+    }
+
+    /* drop-shadow-sky */
+    /* .drop-shadow-sky{
+        filter: drop-shadow(0.1rem 0.1rem 1rem rgba(57 214 235 / 80%));
+    } */
+
+    /* Mobile NavBar Popups */
+    .shownavbar {
+        opacity: 1;
+        visibility: visible;
+        transform: skewY(0deg) translateY(10px);
+    }
+
+    .noshownavbar {
+        opacity: 0;
+        visibility: hidden;
+        transform: skewY(5deg) translateY(-30px);
+    }
+}
